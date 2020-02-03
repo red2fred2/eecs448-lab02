@@ -100,10 +100,9 @@ bool LinkedList<T>::removeBack()
 	Node<T>* secondintoLast = nullptr;
 	bool isRemoved = false;
 
-	while(temp->getNext() != nullptr)
-		{
-			temp = temp->getNext();
-		}
+	/** TODO
+		Fix this method
+	*/
 
 	return(isRemoved);
 }
